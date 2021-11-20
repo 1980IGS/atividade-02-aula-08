@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: Impact;
+    color:rgb(76, 0, 255);
+    margin: 5%;
+    margin-top: 1%;
+    justify-content: center;
+}
+#subtitulo{
+    font-family: Arial;
+    color:rgb(4, 27, 54);
+    margin: 5%;
+    margin-top: 0.5%;
+    justify-content: center;
+    
+}
+fieldset{
+    border: 0;
+    justify-content: center;
+}
+body{
+    background: #18b44c;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.campo{
+    margin-bottom: 0.2em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #000;
+    display: block;
+}
+fieldset .grupo {
+    float: left; 
+    margin-right: 1em;
+}
+.campo input [type="text"],.campo input [type="number"]{
+    padding: 0.2em;
+    border: 1px solid #18b44c;
+    box-shadow: 2px 2px 2px rgb(rgb(0, 255, 170));
+    display: block;
+}
+input,button{
+    border: 20px;
+    color: rgb(19, 9, 11);
+   
+}
+
+.botao{
+    background: #18b44c;
+    font-family: Impact;
+    font-size: 1.5em;
+    color: #000;;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.resumo{
+    background: #18b44c;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;;
+    margin-left: 2%;
+    margin-top: 1%;
+    justify-content: center;
+}

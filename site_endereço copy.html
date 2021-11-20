@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="endereco.css">
+
+    <script src="code.js"></script>
+</head>
+<div>
+  <h1 id="titulo">FORMULARIO DESTINATÁRIO</h1>
+  <p id="subtitulo">Prencha os dados do destinatário</p>
+<div>
+<body>
+  <style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(156, 37, 37);
+      border-radius: 4px;
+      box-sizing: border-box;
+      
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #a09a45;
+    }
+    
+    div {
+      border-radius: 10px;
+      background-color: #cae749;
+      padding: 10px 5px;
+      margin: 5px 5px;
+      padding: 5px;
+    }
+    </style>  
+  </style>
+     
+    <fieldset class="grupo">
+    <div class="campo">
+      <label for="nome"><strong>NOME COMPLETO DO DESTINATÁRIO</strong/><label>
+      <input type="text"  name="destinatario" id="destinatario" placeholder="Digite o nome completo do destinatario" required>
+      </div>
+
+    <div class="campo">
+      <label for="nome"><strong>NOME DA RUA</strong></label>
+      <input type="text" name="rua" id="rua" placeholder="Digite o nome da rua" required>
+    </div>
+      
+    <div class="campo">
+      <label for="numero"><strong>NUMERO DA RESIDENCIA</strong></label>
+      <input type="number" name="residencia" id="residencia" placeholder="Digite o numero" required>
+    </div>
+      
+    <div class="campo">
+      <label for="bairro"><strong>NOME DO BAIRRO</strong></label>
+      <input type="text" name="bairro" id="bairro" placeholder="Digite o nome do bairro" required>
+    </div>
+
+    <div class="campo">
+      <br><label for="nome"><strong>NOME DA CIDADE</strong></label>
+      <input type="text" name="cidade" id="cidade" placeholder="Digite o nome da Cidade" required>
+    </div>
+
+    <div class="campo">
+      <label for="numero"><strong>CEP</strong></label>
+      <input type="number" name="CEP" id="cep" placeholder="Digite o número do CEP" required>
+    </div>
+
+    </fieldset>
+  <br>
+    <button class="botao" onclick="resumo()">RESUMO DO ENDEREÇO</button>
+    <div class="resumo" id="resumo">
+   
+    </div>
+    </body>
+
+    </html>
